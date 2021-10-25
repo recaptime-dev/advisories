@@ -12,4 +12,4 @@ TODO
 
 ## License
 
-Unless otherwise stated, the contents of this repo is licensed under CC BY-SA 4.0.
+Unless otherwise stated, the code stuff of this repo is licensed under MIT while the docs are under CC BY-SA 4.0.
