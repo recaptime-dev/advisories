@@ -1,0 +1,23 @@
+{
+  "name": "@rtapp-advisories/webhook-triager",
+  "packageManager": "yarn@3.0.2",
+  "dependencies": {
+    "@gitbeaker/node": "^34.4.1",
+    "express": "^4.17.1",
+    "front-matter": "^4.0.2",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/js-yaml": "^4.0.4",
+    "@types/node": "^16.11.4",
+    "dotenv": "^10.0.0",
+    "typecript": "^0.0.1-security",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "webhook-server:build": "tsc",
+    "build": "yarn webhook-server:build"
+  },
+  "type": "module"
+}

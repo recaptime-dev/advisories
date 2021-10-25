@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "Node",
+        "target": "ES6",
+        "outDir": "./dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "importHelpers": true
+    }
+}

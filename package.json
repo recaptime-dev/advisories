@@ -1,4 +1,12 @@
 {
   "name": "rtapp-advisories",
-  "packageManager": "yarn@3.0.2"
+  "packageManager": "yarn@3.0.2",
+  "workspaces": [
+    "utils/**"
+  ],
+  "devDependencies": {
+    "@types/node": "^16.11.4",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  }
 }
